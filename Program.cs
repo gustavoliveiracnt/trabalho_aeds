@@ -47,7 +47,7 @@ namespace Trabalho_Pratico
                     }
                     contador++;
                     leitura = arquivo.ReadLine();
-                } while ((leitura = arquivo.ReadLine()) != null);
+                } while (leitura != null);
             }
             catch (IOException exception)
             {
