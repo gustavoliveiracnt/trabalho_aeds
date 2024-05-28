@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -15,7 +15,7 @@ namespace Trabalho_Pratico
             StreamReader arquivo = new StreamReader($@"{path}", Encoding.UTF8);
             string[] dados;
             int qtdCursos, qtdCandidatos;
-            List<Curso> curso = new List<Curso>();
+            Dictionary<int, string> dicionarioCursos = new Dictionary<int, string>();
             List<Candidato> candidato = new List<Candidato>();
             try
             {
@@ -24,18 +24,18 @@ namespace Trabalho_Pratico
                 qtdCursos = int.Parse(dados[0]);
                 qtdCandidatos = int.Parse(dados[1]);
                 int contador = 0;
-                leitura = arquivo.ReadLine();
                 do
                 {
                     dados = leitura.Split(';');
-                    if (contador < qtdCursos)
+
+
+                    if (dados.Length == 3)
                     {
                         int id = int.Parse(dados[0]);
                         string nome = dados[1];
-                        int qtdAunos = int.Parse(dados[2]);
-                        curso.Add(new Curso(id, nome, qtdAunos));
+                        dicionarioCursos[id] = nome;
                     }
-                    else
+                    if(dados.Length == 6)
                     {
                         string nome = dados[0];
                         int notaRed = int.Parse(dados[1]);
@@ -47,17 +47,16 @@ namespace Trabalho_Pratico
                     }
                     contador++;
                     leitura = arquivo.ReadLine();
-                } while (leitura != null);
+                } while ((leitura = arquivo.ReadLine()) != null);
             }
             catch (IOException exception)
             {
                 Console.WriteLine("Erro inesperado: " + exception.Message);
             }
 
-
-            foreach (Curso c in curso)
+            foreach (var c in dicionarioCursos)
             {
-                Console.WriteLine($"Id: {c.Id} \nNome curso: {c.Nome}\nQuantidade de candidatos: {c.QuantidadeAlunos}\n");
+                Console.WriteLine($"\nId do Curso: {c.Key}\n Nome do curso: {c.Value}");
             }
             Console.WriteLine();
             foreach (Candidato c in candidato)
