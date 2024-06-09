@@ -1,0 +1,7 @@
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\bin\Debug\TRABALHO PRATICO 2.exe.config
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\bin\Debug\TRABALHO PRATICO 2.exe
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\bin\Debug\TRABALHO PRATICO 2.pdb
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\obj\Debug\TRABALHO PRATICO 2.csproj.AssemblyReference.cache
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\obj\Debug\TRABALHO PRATICO 2.csproj.CoreCompileInputs.cache
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\obj\Debug\TRABALHO PRATICO 2.exe
+C:\Users\isado\source\repos\TRABALHO PRATICO 2\TRABALHO PRATICO 2\obj\Debug\TRABALHO PRATICO 2.pdb
