@@ -1,0 +1,6 @@
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\bin\Debug\Trabalho_Pratico.exe
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\bin\Debug\Trabalho_Pratico.pdb
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\obj\Debug\Trabalho_Pratico.csproj.AssemblyReference.cache
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\obj\Debug\Trabalho_Pratico.csproj.CoreCompileInputs.cache
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\obj\Debug\Trabalho_Pratico.exe
+C:\Users\ooliv\source\repos\AEDS\Trabalho_Pratico\obj\Debug\Trabalho_Pratico.pdb
